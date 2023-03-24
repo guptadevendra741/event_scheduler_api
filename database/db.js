@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 mongoose.set("strictQuery",false)
 const db=()=>{
-    mongoose.connect("mongodb+srv://guptadevendra7432:SyoQvmyFAeyqF3De@cluster0.bag01x1.mongodb.net/?retryWrites=true&w=majority").then(()=>{
+    mongoose.connect("mongodb+srv://enter your own url").then(()=>{
         console.log("database connected!!");
     });
 }
